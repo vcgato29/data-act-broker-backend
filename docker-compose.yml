@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_DB: data_broker
     ports:
-      - "8000:5432"
+      - "9999:5432"
 
   dataact-broker:
     container_name: dataact-broker
